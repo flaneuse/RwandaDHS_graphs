@@ -9,6 +9,8 @@ library(ggplot2)
 library(llamar)
 library(choroplethr)
 library(choroplethrAdmin1)
+library(llamar)
+library(RColorBrewer)
 
 
 # Import data -------------------------------------------------------------
@@ -26,20 +28,26 @@ df$region = factor(df$region,
                    levels = rev(c('North', 'West', 'East', 'South', 'Kigali')))
 
 # plot the change ---------------------------------------------------------
+blue = brewer.pal(11, 'RdYlBu')[11]
+red = brewer.pal(11, 'RdYlBu')[2]
 
 ggplot(df, aes(x = stunting2010, xend = stunting2014 * 1.018,
                y = region, yend = region, size = 4)) +
-  geom_segment(colour = 'grey', size = 1.5,
-               arrow = arrow(length = unit(0.05, "npc"))) + 
-  geom_point(colour = 'red', shape = 19) +
-  geom_point(aes(x = stunting2014), colour = 'blue', shape = 16) +
-  theme_bw() +
+  geom_segment(colour = grey40K, size = 1.5) + 
+  geom_segment(colour = grey40K, size = 1.5,
+               data = df %>% filter(abs(chg) > 0.04),
+               arrow = arrow(length = unit(0.03, "npc"))) + 
+  geom_point(colour = red, shape = 19) +
+  geom_point(aes(x = stunting2014), colour = blue, shape = 19) +
+  llamar::theme_ygrid() +
+  theme(axis.title.y = element_blank(),
+        title = element_text(size = 13)) +
   ggtitle('Stunting rates dropped considerably but unequally across Rwanda between 2010 and 2014') +
-  geom_text(aes(x = 0.36),
-            label = '2014', colour = 'blue', hjust = 0.5,
+  geom_text(aes(x = 0.36), family = 'Segoe UI Semilight',
+            label = '2014', colour = blue, hjust = 0.5,
             data = df %>% filter(region == 'North')) + 
-    geom_text(aes(x = 0.54),
-    label = '2010', colour = 'red', hjust = 0.5,
+    geom_text(aes(x = 0.54), family = 'Segoe UI Semilight',
+    label = '2010', colour = red, hjust = 0.5,
             data = df %>% filter(region == 'North')) + 
   scale_x_continuous(labels = scales::percent, limits = c(0, 0.55)) +
   coord_flip()
@@ -58,10 +66,22 @@ df2014 = full_join(df2014, df, by = c("region" = "choroName")) %>%
 
 admin1_choropleth(df = df2014, country.name = 'rwanda', num_colors = 1) +
   scale_fill_gradientn(colours = brewer.pal(9, 'Blues'),
-    limits = c(0.1, 0.55)) +
-  ggtitle('2014 DHS')
+                       limits = c(0.1, 0.55), 
+                       breaks = c(0.1, 0.3, 0.5),
+                       name = 'stunting',
+                       labels = scales::percent) + 
+  ggtitle('2014 DHS') + 
+  theme_legend() +
+  theme(title = element_text(hjust = 0.5)) +
+  guides(fill = guide_colorbar(ticks = FALSE))
 
 admin1_choropleth(df = df2010, country.name = 'rwanda', num_colors = 1) +
   scale_fill_gradientn(colours = brewer.pal(9, 'Blues'),
-                       limits = c(0.1, 0.55)) + 
-  ggtitle('2010 DHS')
+                       limits = c(0.1, 0.55), 
+                       breaks = c(0.1, 0.3, 0.5),
+                       name = 'stunting',
+                       labels = scales::percent) + 
+  ggtitle('2010 DHS') + 
+  theme_legend() +
+  theme(title = element_text(hjust = 0.5)) +
+  guides(fill = guide_colorbar(ticks = FALSE))
