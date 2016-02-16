@@ -70,7 +70,7 @@ admin1_choropleth(df = df2014, country.name = 'rwanda', num_colors = 1) +
                        breaks = c(0.1, 0.3, 0.5),
                        name = 'stunting',
                        labels = scales::percent) + 
-  ggtitle('2014 DHS') + 
+  ggtitle('2014 DHS') +
   theme_legend() +
   theme(title = element_text(hjust = 0.5)) +
   guides(fill = guide_colorbar(ticks = FALSE))
