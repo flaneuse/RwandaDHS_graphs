@@ -1,0 +1,121 @@
+Day	DayOfMonth	Time	Office	Meeting_details
+Monday	22	8:00		
+Monday	22	8:30	PRO	Meeting with PRO team 
+Monday	22	9:00		
+Monday	22	9:30		
+Monday	22	10:00		
+Monday	22	10:30		
+Monday	22	11:00	SPRING	SPRING Technical Assistance In-brief USAID 
+Monday	22	11:30	SPRING	SPRING Technical Assistance In-brief USAID 
+Monday	22	12:00	SPRING	SPRING Technical Assistance In-brief USAID 
+Monday	22	12:30		
+Monday	22	13:00	PRO	Weekly M&E Pow-Wow
+Monday	22	13:30	PRO	Weekly M&E Pow-Wow
+Monday	22	14:00		
+Monday	22	14:30	DG	Portfolio Review Meeting Democracy and Governance
+Monday	22	15:00	DG	Portfolio Review Meeting Democracy and Governance
+Monday	22	15:30	DG	Portfolio Review Meeting Democracy and Governance
+Monday	22	16:00	DG	Portfolio Review Meeting Democracy and Governance
+Monday	22	16:30		
+Monday	22	17:00		
+Monday	22	17:30	Shuttle	Crammed car back to hotel
+Tuesday	23	8:00		
+Tuesday	23	8:30		
+Tuesday	23	9:00	DG	Discussion w/GeoCenter’s team on GIS tools for DG
+Tuesday	23	9:30	DG	Discussion w/GeoCenter’s team on GIS tools for DG
+Tuesday	23	10:00	ESRI	Meeting with ESRI Rwanda
+Tuesday	23	10:30	ESRI	Meeting with ESRI Rwanda
+Tuesday	23	11:00		
+Tuesday	23	11:30		
+Tuesday	23	12:00		
+Tuesday	23	12:30		
+Tuesday	23	13:00	Chemonics	GIS discussion with Land Project
+Tuesday	23	13:30	Chemonics	GIS discussion with Land Project
+Tuesday	23	14:00	RNRA	GIS discussion with Rwanda National Resource Authority on Land Use Portal
+Tuesday	23	14:30	RNRA	GIS discussion with Rwanda National Resource Authority on Land Use Portal
+Tuesday	23	15:00	ED	Portfolio Review Meeting Education
+Tuesday	23	15:30	ED	Portfolio Review Meeting Education
+Tuesday	23	16:00	ED	Portfolio Review Meeting Education
+Tuesday	23	16:30	ED	Portfolio Review Meeting Education
+Tuesday	23	17:00		
+Tuesday	23	17:30	Shuttle	Crammed car back to hotel
+Wednesday	24	8:00		
+Wednesday	24	8:30	JHPIEGO	Meeting with JHPIEGO (Maternal and Child Survival Program)
+Wednesday	24	9:00	JHPIEGO	Meeting with JHPIEGO (Maternal and Child Survival Program)
+Wednesday	24	9:30		
+Wednesday	24	10:00		
+Wednesday	24	10:30		
+Wednesday	24	11:00	MSH	Rwanda Health System Strengthening Project (MSH)
+Wednesday	24	11:30	MSH	Rwanda Health System Strengthening Project (MSH)
+Wednesday	24	12:00	MSH	
+Wednesday	24	12:30		
+Wednesday	24	13:00	Kenya LAM	Livelihood Analysis Discussion with Kenya Mission
+Wednesday	24	13:30	Kenya LAM	Livelihood Analysis Discussion with Kenya Mission
+Wednesday	24	14:00	NA poolworking	Customized needs assessment presenation work and review
+Wednesday	24	14:30	NA poolworking	Customized needs assessment presenation work and review
+Wednesday	24	15:00	NA poolworking	Customized needs assessment presenation work and review
+Wednesday	24	15:30	NA poolworking	Customized needs assessment presenation work and review
+Wednesday	24	16:00	NA poolworking	Customized needs assessment presenation work and review
+Wednesday	24	16:30		
+Wednesday	24	17:00		
+Wednesday	24	17:30		
+Thursday	25	8:00		
+Thursday	25	8:30		
+Thursday	25	9:00		Discussion w/GeoCenter team on GIS tools for Economic Growth
+Thursday	25	9:30	EG	Discussion w/GeoCenter team on GIS tools for Economic Growth
+Thursday	25	10:00	EG	
+Thursday	25	10:30		
+Thursday	25	11:00	EDU	Discussion w/GeoCenter team on GIS tools for EDU
+Thursday	25	11:30	EDU	Discussion w/GeoCenter team on GIS tools for EDU
+Thursday	25	12:00		
+Thursday	25	12:30		
+Thursday	25	13:00	Health	Discussion w/GeoCenter team on GIS tools for Health
+Thursday	25	13:30	Health	Discussion w/GeoCenter team on GIS tools for Health
+Thursday	25	14:00	EG	Portfolio Review Meeting (Economic Growth)
+Thursday	25	14:30	EG	Portfolio Review Meeting (Economic Growth)
+Thursday	25	15:00	EG	Portfolio Review Meeting (Economic Growth)
+Thursday	25	15:30	EG	Portfolio Review Meeting (Economic Growth)
+Thursday	25	16:00		
+Thursday	25	16:30	Burundi	Meeting with Burundi Program Office
+Thursday	25	17:00	Burundi	Meeting with Burundi Program Office
+Thursday	25	17:30	DMD	Outbrief with Deputy Mission Director
+Friday	26	8:00		
+Friday	26	8:30		
+Friday	26	9:00	NISR	Meeting with National Institute of Statistics - GIS (NISR)
+Friday	26	9:30	NISR	Meeting with National Institute of Statistics - GIS (NISR)
+Friday	26	10:00	MINAGRI	Meeting with MINAGRI GIS team
+Friday	26	10:30	MINAGRI	Meeting with MINAGRI GIS team
+Friday	26	11:00	PRO	Outbrief with Program Office
+Friday	26	11:30	PRO	Outbrief with Program Office
+Friday	26	12:00		
+Friday	26	12:30		
+Friday	26	13:00	Mission Closed	
+Friday	26	13:30	Mission Closed	
+Friday	26	14:00	Mission Closed	
+Friday	26	14:30	Mission Closed	
+Friday	26	15:00	Mission Closed	
+Friday	26	15:30	Mission Closed	
+Friday	26	16:00	Mission Closed	
+Friday	26	16:30	Mission Closed	
+Friday	26	17:00	Mission Closed	
+Friday	26	17:30	Mission Closed	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
