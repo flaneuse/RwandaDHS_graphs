@@ -21,3 +21,7 @@ hhMem = read_dta('~/Documents/USAID/Rwanda/data in/RW_2010_DHS/RW_DHS_hhMembers_
 indiv = read_dta('~/Documents/USAID/Rwanda/data in/RW_2010_DHS/RW_DHS_indiv_2010/RWIR61FL.DTA')
 
 men = read_dta('~/Documents/USAID/Rwanda/data in/RW_2010_DHS/RW_DHS_mens_2010/RWMR61FL.DTA')
+
+
+
+geo = read.dbf('~/Documents/USAID/Rwanda/data in/RW_2010_DHS/RW_DHS_GPS_2010/RWGE61FL.dbf')
