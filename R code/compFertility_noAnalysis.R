@@ -25,7 +25,7 @@ fertility = data_frame(`2014` = c(41, 143, 185, 185, 107, 52, 1,
   mutate(diff = `2014` - `2010`)
 
 fertility = fertility %>% 
-  gather(year, fertility, -age, -rural)
+  gather(year, fertility, -age, -rural, -diff)
 
 ggplot(fertility, aes(y = fertility, x = age, group = year, colour = year)) +
   geom_point() +
