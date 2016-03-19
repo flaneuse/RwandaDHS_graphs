@@ -1,8 +1,8 @@
 /*-------------------------------------------------------------------------------
 # Name:		00_SetupFolderGlobals
-# Purpose:	Create series of folders Food for Ethiopia Vulnerability Analysis
+# Purpose:	Create series of folders Food for Rwanda Vulnerability Analysis
 # Author:	Tim Essam, Ph.D.
-# Created:	2015/06/15
+# Created:	2016/03/15
 # Owner:	USAID GeoCenter | OakStream Systems, LLC
 # License:	MIT License
 # Ado(s):	see below
