@@ -159,8 +159,9 @@ fertPref = full_join(fertPref2010, fertPref2014,
   gather(year, pct, -desire, -numKids, -diff)
 
 fertPref$desire = factor(fertPref$desire,
-                         levels = c('wants within 2 years', 'wants > 2 years'),
-                         labels = c('wants another baby within 2 years', 'wants another baby > 2 years'))
+                         levels = 'no more')
+                         # levels = c('wants within 2 years', 'wants > 2 years'),
+                         # labels = c('wants another baby within 2 years', 'wants another baby > 2 years'))
 
 # ggplot(fertPref %>% filter(!(desire %in% 
 #                                c('infecund', 'wants another, not sure when',
